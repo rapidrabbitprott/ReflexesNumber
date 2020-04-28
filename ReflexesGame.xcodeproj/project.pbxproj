@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,23 @@
 		5F09E46E23BC7E3200AEED1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F09E46C23BC7E3200AEED1F /* Main.storyboard */; };
 		5F09E47023BC7E3700AEED1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F09E46F23BC7E3700AEED1F /* Assets.xcassets */; };
 		5F09E47323BC7E3700AEED1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F09E47123BC7E3700AEED1F /* LaunchScreen.storyboard */; };
+		5F09E49F23BD8A6800AEED1F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09E49E23BD8A6800AEED1F /* StartViewController.swift */; };
+		5F09E4A323BD8AB900AEED1F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09E4A223BD8AB900AEED1F /* SettingViewController.swift */; };
+		5F09E4A523BD8ACF00AEED1F /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09E4A423BD8ACF00AEED1F /* PlayViewController.swift */; };
+		5F28F12B23CB227A00935D35 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F28F12A23CB227A00935D35 /* ResultViewController.swift */; };
+		5F5D1FEA23EA40C9002743F1 /* YourScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D1FE823EA40C9002743F1 /* YourScoreTableViewCell.swift */; };
+		5F5D1FEB23EA40C9002743F1 /* YourScoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D1FE923EA40C9002743F1 /* YourScoreTableViewCell.xib */; };
+		5F5D1FEE23EA40E4002743F1 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D1FEC23EA40E4002743F1 /* RankingTableViewCell.swift */; };
+		5F5D1FEF23EA40E4002743F1 /* RankingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D1FED23EA40E4002743F1 /* RankingTableViewCell.xib */; };
+		5F63A4B42435A04500DED908 /* UserScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63A4B32435A04500DED908 /* UserScoreViewController.swift */; };
+		5F63A4B62435C99600DED908 /* UserScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63A4B52435C99600DED908 /* UserScore.swift */; };
+		5F7B086F2403435B00299EE1 /* UserScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B086D2403435B00299EE1 /* UserScoreTableViewCell.swift */; };
+		5F7B08702403435B00299EE1 /* UserScoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7B086E2403435B00299EE1 /* UserScoreTableViewCell.xib */; };
+		5F7B08752403865000299EE1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B08742403865000299EE1 /* User.swift */; };
+		5F7B08772403865C00299EE1 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B08762403865C00299EE1 /* Score.swift */; };
+		5F7B08792403A3F700299EE1 /* EmailRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B08782403A3F700299EE1 /* EmailRegisterViewController.swift */; };
+		5FFDD51A242AFD44001E1F31 /* UserSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFDD519242AFD44001E1F31 /* UserSettingViewController.swift */; };
+		6E9D8F1893A77306D441E7D7 /* Pods_ReflexesGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFB4906F9FF39A1733D094B /* Pods_ReflexesGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +40,26 @@
 		5F09E46D23BC7E3200AEED1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F09E46F23BC7E3700AEED1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F09E47223BC7E3700AEED1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5F09E47423BC7E3700AEED1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F09E49E23BD8A6800AEED1F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		5F09E4A223BD8AB900AEED1F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5F09E4A423BD8ACF00AEED1F /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		5F28F12A23CB227A00935D35 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		5F5D1FE823EA40C9002743F1 /* YourScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourScoreTableViewCell.swift; sourceTree = "<group>"; };
+		5F5D1FE923EA40C9002743F1 /* YourScoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YourScoreTableViewCell.xib; sourceTree = "<group>"; };
+		5F5D1FEC23EA40E4002743F1 /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		5F5D1FED23EA40E4002743F1 /* RankingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankingTableViewCell.xib; sourceTree = "<group>"; };
+		5F63A4B32435A04500DED908 /* UserScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScoreViewController.swift; sourceTree = "<group>"; };
+		5F63A4B52435C99600DED908 /* UserScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScore.swift; sourceTree = "<group>"; };
+		5F7B086D2403435B00299EE1 /* UserScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScoreTableViewCell.swift; sourceTree = "<group>"; };
+		5F7B086E2403435B00299EE1 /* UserScoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserScoreTableViewCell.xib; sourceTree = "<group>"; };
+		5F7B08742403865000299EE1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5F7B08762403865C00299EE1 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		5F7B08782403A3F700299EE1 /* EmailRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailRegisterViewController.swift; sourceTree = "<group>"; };
+		5F7B087C2406511F00299EE1 /* ReflexesGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReflexesGame.entitlements; sourceTree = "<group>"; };
+		5FFDD519242AFD44001E1F31 /* UserSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingViewController.swift; sourceTree = "<group>"; };
+		7F471896241138208FDF362C /* Pods-ReflexesGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReflexesGame.release.xcconfig"; path = "Target Support Files/Pods-ReflexesGame/Pods-ReflexesGame.release.xcconfig"; sourceTree = "<group>"; };
+		87557E6E780F8DFF3135612E /* Pods-ReflexesGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReflexesGame.debug.xcconfig"; path = "Target Support Files/Pods-ReflexesGame/Pods-ReflexesGame.debug.xcconfig"; sourceTree = "<group>"; };
+		EEFB4906F9FF39A1733D094B /* Pods_ReflexesGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReflexesGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9D8F1893A77306D441E7D7 /* Pods_ReflexesGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				5F09E46523BC7E3200AEED1F /* ReflexesGame */,
 				5F09E46423BC7E3200AEED1F /* Products */,
+				61D881B23C39643DBE65A146 /* Pods */,
+				FEA65C9688B4F1553C200E0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,72 @@
 		5F09E46523BC7E3200AEED1F /* ReflexesGame */ = {
 			isa = PBXGroup;
 			children = (
+				5F7B087C2406511F00299EE1 /* ReflexesGame.entitlements */,
 				5F09E46623BC7E3200AEED1F /* AppDelegate.swift */,
 				5F09E46823BC7E3200AEED1F /* SceneDelegate.swift */,
-				5F09E46A23BC7E3200AEED1F /* ViewController.swift */,
-				5F09E46C23BC7E3200AEED1F /* Main.storyboard */,
+				5F7B0871240385D600299EE1 /* Model */,
+				5F7B0872240385E000299EE1 /* View */,
+				5F7B0873240385FF00299EE1 /* Controller */,
 				5F09E46F23BC7E3700AEED1F /* Assets.xcassets */,
 				5F09E47123BC7E3700AEED1F /* LaunchScreen.storyboard */,
-				5F09E47423BC7E3700AEED1F /* Info.plist */,
 			);
 			path = ReflexesGame;
+			sourceTree = "<group>";
+		};
+		5F7B0871240385D600299EE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F7B08742403865000299EE1 /* User.swift */,
+				5F7B08762403865C00299EE1 /* Score.swift */,
+				5F63A4B52435C99600DED908 /* UserScore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F7B0872240385E000299EE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F09E46C23BC7E3200AEED1F /* Main.storyboard */,
+				5F7B086E2403435B00299EE1 /* UserScoreTableViewCell.xib */,
+				5F5D1FE923EA40C9002743F1 /* YourScoreTableViewCell.xib */,
+				5F5D1FED23EA40E4002743F1 /* RankingTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F7B0873240385FF00299EE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F09E49E23BD8A6800AEED1F /* StartViewController.swift */,
+				5F7B08782403A3F700299EE1 /* EmailRegisterViewController.swift */,
+				5F63A4B32435A04500DED908 /* UserScoreViewController.swift */,
+				5F7B086D2403435B00299EE1 /* UserScoreTableViewCell.swift */,
+				5F09E4A223BD8AB900AEED1F /* SettingViewController.swift */,
+				5FFDD519242AFD44001E1F31 /* UserSettingViewController.swift */,
+				5F09E4A423BD8ACF00AEED1F /* PlayViewController.swift */,
+				5F28F12A23CB227A00935D35 /* ResultViewController.swift */,
+				5F5D1FEC23EA40E4002743F1 /* RankingTableViewCell.swift */,
+				5F5D1FE823EA40C9002743F1 /* YourScoreTableViewCell.swift */,
+				5F09E46A23BC7E3200AEED1F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		61D881B23C39643DBE65A146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87557E6E780F8DFF3135612E /* Pods-ReflexesGame.debug.xcconfig */,
+				7F471896241138208FDF362C /* Pods-ReflexesGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEA65C9688B4F1553C200E0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEFB4906F9FF39A1733D094B /* Pods_ReflexesGame.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F09E47723BC7E3700AEED1F /* Build configuration list for PBXNativeTarget "ReflexesGame" */;
 			buildPhases = (
+				2F5DE9954A8EE58862883D07 /* [CP] Check Pods Manifest.lock */,
 				5F09E45F23BC7E3100AEED1F /* Sources */,
 				5F09E46023BC7E3100AEED1F /* Frameworks */,
 				5F09E46123BC7E3100AEED1F /* Resources */,
+				AEDC8A708E466FC8384B6FFB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +223,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5D1FEF23EA40E4002743F1 /* RankingTableViewCell.xib in Resources */,
 				5F09E47323BC7E3700AEED1F /* LaunchScreen.storyboard in Resources */,
+				5F5D1FEB23EA40C9002743F1 /* YourScoreTableViewCell.xib in Resources */,
 				5F09E47023BC7E3700AEED1F /* Assets.xcassets in Resources */,
 				5F09E46E23BC7E3200AEED1F /* Main.storyboard in Resources */,
+				5F7B08702403435B00299EE1 /* UserScoreTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F5DE9954A8EE58862883D07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReflexesGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEDC8A708E466FC8384B6FFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReflexesGame/Pods-ReflexesGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReflexesGame/Pods-ReflexesGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReflexesGame/Pods-ReflexesGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F09E45F23BC7E3100AEED1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F63A4B42435A04500DED908 /* UserScoreViewController.swift in Sources */,
+				5F5D1FEA23EA40C9002743F1 /* YourScoreTableViewCell.swift in Sources */,
+				5F7B086F2403435B00299EE1 /* UserScoreTableViewCell.swift in Sources */,
 				5F09E46B23BC7E3200AEED1F /* ViewController.swift in Sources */,
+				5F09E49F23BD8A6800AEED1F /* StartViewController.swift in Sources */,
+				5F63A4B62435C99600DED908 /* UserScore.swift in Sources */,
+				5F5D1FEE23EA40E4002743F1 /* RankingTableViewCell.swift in Sources */,
+				5F28F12B23CB227A00935D35 /* ResultViewController.swift in Sources */,
+				5FFDD51A242AFD44001E1F31 /* UserSettingViewController.swift in Sources */,
 				5F09E46723BC7E3200AEED1F /* AppDelegate.swift in Sources */,
+				5F7B08772403865C00299EE1 /* Score.swift in Sources */,
+				5F7B08752403865000299EE1 /* User.swift in Sources */,
+				5F7B08792403A3F700299EE1 /* EmailRegisterViewController.swift in Sources */,
 				5F09E46923BC7E3200AEED1F /* SceneDelegate.swift in Sources */,
+				5F09E4A523BD8ACF00AEED1F /* PlayViewController.swift in Sources */,
+				5F09E4A323BD8AB900AEED1F /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +438,12 @@
 		};
 		5F09E47823BC7E3700AEED1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87557E6E780F8DFF3135612E /* Pods-ReflexesGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReflexesGame/ReflexesGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABRY2KN8D3;
 				INFOPLIST_FILE = ReflexesGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,15 +452,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.morikawa.ReflexesGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5F09E47923BC7E3700AEED1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F471896241138208FDF362C /* Pods-ReflexesGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReflexesGame/ReflexesGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABRY2KN8D3;
 				INFOPLIST_FILE = ReflexesGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.morikawa.ReflexesGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

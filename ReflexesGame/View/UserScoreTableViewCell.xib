@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserScoreTableViewCell" rowHeight="121" id="KGk-i7-Jjw" customClass="UserScoreTableViewCell" customModule="ReflexesGame" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DIGITS X +-×÷" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyi-LP-tjW">
+                        <rect key="frame" x="150.5" y="7" width="113" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="113" id="6Wn-ej-LH3"/>
+                            <constraint firstAttribute="height" constant="21" id="Pt4-Ek-eof"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Record:xxx:xxx:xxx(1rank)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cw4-eW-R65">
+                        <rect key="frame" x="88" y="36" width="238" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Gab-7N-f4l"/>
+                            <constraint firstAttribute="width" constant="238" id="iFA-Af-XFY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Record:xxx:xxx:xxx(2rank)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juW-Yj-4Pz">
+                        <rect key="frame" x="88" y="65" width="264" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="264" id="36c-WU-lp4"/>
+                            <constraint firstAttribute="height" constant="21" id="mdk-2g-5Mc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third Record:xxx:xxx:xxx(3rank)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfV-Y9-kiX">
+                        <rect key="frame" x="88" y="94" width="246" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="7e1-9K-VEP"/>
+                            <constraint firstAttribute="width" constant="246" id="R8w-O7-dHj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qbg-Ak-ip4">
+                        <rect key="frame" x="0.0" y="119" width="414" height="2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.12941405180000001" green="0.1294075549" blue="0.12941199540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="juW-Yj-4Pz" firstAttribute="top" secondItem="cw4-eW-R65" secondAttribute="bottom" constant="8" id="0gV-TR-sSN"/>
+                    <constraint firstItem="juW-Yj-4Pz" firstAttribute="leading" secondItem="cw4-eW-R65" secondAttribute="leading" id="1qO-Pp-nqQ"/>
+                    <constraint firstItem="cw4-eW-R65" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="GYu-nV-lrz"/>
+                    <constraint firstItem="lyi-LP-tjW" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="MHV-q1-ka7"/>
+                    <constraint firstItem="lyi-LP-tjW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="VlN-jH-sTI"/>
+                    <constraint firstItem="VfV-Y9-kiX" firstAttribute="leading" secondItem="juW-Yj-4Pz" secondAttribute="leading" id="YEJ-Zf-x3o"/>
+                    <constraint firstItem="Qbg-Ak-ip4" firstAttribute="top" secondItem="VfV-Y9-kiX" secondAttribute="bottom" constant="4" id="cCu-UX-yP7"/>
+                    <constraint firstItem="VfV-Y9-kiX" firstAttribute="top" secondItem="juW-Yj-4Pz" secondAttribute="bottom" constant="8" id="cta-L8-2Hc"/>
+                    <constraint firstAttribute="trailing" secondItem="Qbg-Ak-ip4" secondAttribute="trailing" id="jew-qB-vmI"/>
+                    <constraint firstAttribute="bottom" secondItem="Qbg-Ak-ip4" secondAttribute="bottom" id="mF5-aq-n2c"/>
+                    <constraint firstItem="cw4-eW-R65" firstAttribute="top" secondItem="lyi-LP-tjW" secondAttribute="bottom" constant="8" id="nF3-tk-7xG"/>
+                    <constraint firstItem="Qbg-Ak-ip4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uZo-Mv-M0b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bestRecordLablel" destination="cw4-eW-R65" id="C9i-TP-SPi"/>
+                <outlet property="calcAndDigitsLabel" destination="lyi-LP-tjW" id="ctT-Wy-9cO"/>
+                <outlet property="secondRecordLabel" destination="juW-Yj-4Pz" id="2ex-So-6E7"/>
+                <outlet property="thirdRecordLabel" destination="VfV-Y9-kiX" id="Snf-cW-bsh"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="80.022321428571431"/>
+        </tableViewCell>
+    </objects>
+</document>
